@@ -12,8 +12,8 @@ class TwitterView extends AbstractView {
 	public TwitterView(Context context) {
 		super(context, "POC twitter fetch");
 		
-		final String consumerKey = "u2GZRanIjqgLT3g9ySFVDQ",
-			consumerSecret = "6UBy29Id7Ed70e3mKnuaxFgYNVsNox8npH8LBhyD5yo",
+		final String consumerKey = "...",
+			consumerSecret = "...",
 			callbackURL = "http://awislabs.com";
 		
 		twitter = new Twitter(context, consumerKey, consumerSecret, callbackURL);
