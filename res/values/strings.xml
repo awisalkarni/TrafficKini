@@ -3,5 +3,18 @@
 
     <string name="hello">Hello World, TrafficKiniActivity!</string>
     <string name="app_name">TrafficKini</string>
-
+    <string name="html"><![CDATA[<html>
+        <SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+        zoom = 200;
+        </SCRIPT>
+        <FRAMESET rows="*,0">
+        <FRAME src="http://www.itis.com.my/website/ITIS/viewer.htm" frameborder="0" noresize>
+        <NOFRAMES>
+       		Your browser does not support frames.
+       	</NOFRAMES>
+       	</FRAMESET>
+       	</html>]]>
+       	
+       	</string>
+    
 </resources>
